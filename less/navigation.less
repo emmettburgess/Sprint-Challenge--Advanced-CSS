@@ -1,1 +1,32 @@
 // Navigation code here
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 3.6rem;
+    background-color: @nav-bg;
+    .custom-layout(center, center);
+    
+    h1 {
+        font-size: 3.6rem;
+        .custom-layout(center, center);
+        margin: 20px;
+    }
+    
+}
+
+nav {
+    font-size: 2rem;
+    display: flex;
+    .custom-layout(center, center);
+    margin-bottom: 20px;
+    a {
+        margin-left: 20px;
+        margin-right: 20px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: black;
+        line-height: 2rem;
+    }
+}
+
